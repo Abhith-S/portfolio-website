@@ -1,9 +1,9 @@
 import React from "react";
 import { SiHyperledger } from "react-icons/si";
 import { FaEthereum } from "react-icons/fa";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import signadoc from "@/public/sign-a-doc.png"
+import block from "@/public/block.png";
+import nft from "@/public/nft.png";
 
 export const links = [
   {
@@ -59,21 +59,21 @@ export const projectsData = [
     description:
       "Revamped the UI of a blockchain-backed document digital signature software, transitioning from React.js to Next.js. This initiative included optimizing backend performance, integrating new functionalities, and enhancing the overall user experience.",
     tags: ["React", "Next.js",  "Node.js","MongoDB","Bootstrap"],
-    imageUrl: corpcommentImg,
+    imageUrl: signadoc,
   },
   {
     title: "Blockchain Network with Kubernetes",
     description:
       "Implemented a blockchain network on Google Cloud with Kubernetes for an automobile consortium to ensure 90% uptime and continuous node monitoring. This deployment catered to the need for persistent data and always-available nodes, meeting the consortium's objectives effectively.",
     tags: ["Kubernetes", "Node.js", "Hyperledger Fabric", "GCP"],
-    imageUrl: rmtdevImg,
+    imageUrl: block,
   },
   {
     title: "NFT Marketplace Mobile App",
     description:
       "Designed a React Native app facilitating artists to sell physical paintings as NFTs, increasing onboarding speed by 70%. This innovation resolved image capture issues on the website, streamlining the artist registration process.",
     tags: ["React Native", "Solidity","Ethereum"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: nft,
   },
 ] as const;
 
