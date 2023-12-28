@@ -1,6 +1,6 @@
 # My Personal Portfolio Website
 
-## Link - https://abhith-shaji.vercel.app/
+## Link - abhithshaji.vercel.app/
 
 ## Setup
 
