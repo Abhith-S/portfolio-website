@@ -2,7 +2,7 @@
 
 ## Link 
 
-**(abhithshaji.vercel.app)[https://abhithshaji.vercel.app/]**
+**https://abhithshaji.vercel.app**
 
 ## Setup
 
