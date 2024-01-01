@@ -19,7 +19,7 @@ const fadeInAnimationVariants = {
   }),
 };
 
-const SkillComponent = ({title,data}:{title:string,data:[]})=>{
+const SkillComponent = ({title,data}:{title:string,data:string[]})=>{
     const { ref } = useSectionInView("Skills");
 
     return <section
