@@ -7,7 +7,7 @@ import SectionHeading from "./section-heading";
 import SkillComponent from "./SkillComponent";
 
 //data import
-import { blockchain, database, frameworks, languages, mobile, tools } from "@/lib/data";
+import { blockchain, others, frameworks, languages } from "@/lib/data";
 
 export default function Skills() {
 
@@ -16,15 +16,12 @@ export default function Skills() {
 
       <SectionHeading><p className="mb-16 ">My Skills</p></SectionHeading>
       <div className="mb-8"></div>
-      
+
       <SkillComponent title={"Programming Languages"} data={languages} />
       <SkillComponent title={"Frameworks"} data={frameworks} />
       <SkillComponent title={"Blockchain"} data={blockchain} />
-      <SkillComponent title={"Tools"} data={tools} />
-      <SkillComponent title={"Mobile"} data={mobile} />
-      <SkillComponent title={"Database"} data={database} />
-      
-  
+      <SkillComponent title={"Others"} data={others} />
+
     </div>
   );
 }

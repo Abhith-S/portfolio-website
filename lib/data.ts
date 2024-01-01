@@ -79,20 +79,16 @@ export const projectsData = [
 
 export const blockchain = [
   "Ethereum", "Hyperledger Fabric",
-  "Hardhat", "Truffle",
-  "IPFS",
+  "Hardhat",
   "Ethers.js", "Web3.js"
 ]
 
 export const frameworks = [
   "React.js", "Next.js",
-  "Node.js", "Express.js"
+  "Node.js", "Express.js",
+  "React Native"
 ]
-
-export const mobile = ["React Native"]
 
 export const languages = ["JavaScript", "TypeScript", "Solidity",]
 
-export const database = ["MongoDB",]
-
-export const tools = ["Docker", "Kubernetes", "GIT", "Google Cloud Platform (GCP)"]
+export const others = ["Docker", "Kubernetes", "Google Cloud Platform (GCP)","MongoDB"]
