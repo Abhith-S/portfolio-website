@@ -1,52 +1,30 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "./section-heading";
-import { skillsData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
-import { motion } from "framer-motion";
 
-const fadeInAnimationVariants = {
-  initial: {
-    opacity: 0,
-    y: 100,
-  },
-  animate: (index: number) => ({
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.05 * index,
-    },
-  }),
-};
+//components imports
+import SectionHeading from "./section-heading";
+import SkillComponent from "./SkillComponent";
+
+//data import
+import { blockchain, database, frameworks, languages, mobile, tools } from "@/lib/data";
 
 export default function Skills() {
-  const { ref } = useSectionInView("Skills");
 
   return (
-    <section
-      id="skills"
-      ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
-    >
-      <SectionHeading>My skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
-        {skillsData.map((skill, index) => (
-          <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 "
-            key={index}
-            variants={fadeInAnimationVariants}
-            initial="initial"
-            whileInView="animate"
-            viewport={{
-              once: true,
-            }}
-            custom={index}
-          >
-            {skill}
-          </motion.li>
-        ))}
-      </ul>
-    </section>
+    <div className="mb-28 mt-20">
+
+      <SectionHeading><p className="mb-16 ">My Skills</p></SectionHeading>
+      <div className="mb-8"></div>
+      
+      <SkillComponent title={"Programming Languages"} data={languages} />
+      <SkillComponent title={"Frameworks"} data={frameworks} />
+      <SkillComponent title={"Blockchain"} data={blockchain} />
+      <SkillComponent title={"Tools"} data={tools} />
+      <SkillComponent title={"Mobile"} data={mobile} />
+      <SkillComponent title={"Database"} data={database} />
+      
+  
+    </div>
   );
 }
