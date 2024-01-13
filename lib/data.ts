@@ -58,7 +58,7 @@ export const projectsData = [
     title: "Sign-a-Doc",
     description:
       "Revamped the UI of a blockchain-backed document digital signature software, transitioning from React.js to Next.js. This initiative included optimizing backend performance, integrating new functionalities, and enhancing the overall user experience.",
-    tags: ["React", "Next.js", "Node.js", "MongoDB", "Bootstrap"],
+    tags: ["React", "Next.js", "Node.js","Express.js", "MongoDB", "Dcoker", "Bootstrap"],
     imageUrl: signadoc,
   },
   {
@@ -91,4 +91,4 @@ export const frameworks = [
 
 export const languages = ["JavaScript", "TypeScript", "Solidity",]
 
-export const others = ["Docker", "Kubernetes", "Google Cloud Platform (GCP)","MongoDB"]
+export const others = ["Docker", "Kubernetes", "Google Cloud Platform (GCP)","MongoDB","Bootstrap","TailwindCSS"]
