@@ -66,9 +66,8 @@ export default function Intro() {
         <br/>
       
         <div className="h-8"></div>
-        From{" "}
-        <span className="font-bold underline">Frontend</span> <span className="italic">finesse</span> to{" "}
-        <span className="font-bold underline">Backend</span> <span><span className="italic">brilliance</span>, I build exceptional digital experiences.</span>
+       I'm a <span className="italic">wizard</span> at merging complex business logic with user-friendly <span className="italic">UI/UX </span> using <span className="font-bold underline">Next.js</span>.
+      
       </motion.h1>
 
       <motion.div
