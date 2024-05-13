@@ -66,7 +66,7 @@ export default function Intro() {
         <br/>
       
         <div className="h-8"></div>
-       From <span className="italic">Frontend</span> finesse to  <span className="italic">Backend </span> brilliance, I build exceptional digital experiences.
+       From <span className="italic font-bold">Frontend</span> finesse to  <span className="italic font-bold">Backend </span> brilliance, I build exceptional digital experiences.
       
       </motion.h1>
 
