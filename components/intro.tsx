@@ -66,7 +66,7 @@ export default function Intro() {
         <br/>
       
         <div className="h-8"></div>
-       I'm a <span className="italic">wizard</span> at merging complex business logic with user-friendly <span className="italic">UI/UX </span> using <span className="font-bold underline">Next.js</span>.
+       From <span className="italic">Frontend</span> finesse to  <span className="italic">Backend </span> brilliance, I build exceptional digital experiences.
       
       </motion.h1>
 
